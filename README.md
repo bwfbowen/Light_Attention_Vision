@@ -1,6 +1,6 @@
 # Light_Attention_Vision
 
-<img width="484" alt="image" src="https://user-images.githubusercontent.com/104526323/208586920-2ab05f8a-a2e0-4ca5-acdb-f35fd3d8d4e4.png">
+![image](https://user-images.githubusercontent.com/104526323/208587627-35cd299d-3e72-48d2-9247-703c818f8d69.png)
 
 # Experiments
 
