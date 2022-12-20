@@ -1,9 +1,9 @@
 # Light_Attention_Vision
-1. INTRODUCTION AND RELATED WORK
-Q-learning algorithm with convolutional neural network, whose input is raw pixels has demonstrated success on several Atari games decades ago (Mnih et al., 2013). The neural network plays the role of both state representation and policy π:S→A. Thus, the ability to identify the latent state from raw observations and learn the proper policy from state space to actions are the critical ingredient of the performance of different NN architecture. Transformers (Vaswani et al., 2017) have become SOTA in different areas ranging from natural language processing (NLP), time series prediction, to image generation. The success of Transformers rely on the trainable attention mechanism which identifies complex depencies between elements of each input sequence. Despite the power that attention mechanism processes complex information, attention mechanism is expensive for the fact that it scales quadratically with the length L of the input sequence. Performers ( Choromanski et al., 2020) improve the regular attention with Fast Attention Via positive Orthogonal Random features (FAVOR+) mechanism, which is provably accurate and only takes linear space and time complexity. For this project, I use Deep Q Networks (DQN) with different NN models to train agents directly from raw pixels and compare the performance.
-
-Transformers were proposed originally to process sets instead of sequence since it produces the same output if the input is permuted. To apply Transformers to sequences, a positional encoding is added. Pre-Layer Normalization (Xiong et al., 2020) is used(Figure 1), which is a version of the Transformer that applies Layer Normalization first in each residual block. Pre-LN is more stable for training Transformers, which supports better gradient flow and removes the necessity of a warm-up stage.
-For the implementation, the Feed Forward block is two fully connected layers with GELU activation. The Feed Forward block introduces much more parameters while the gain is uncertain. Therefore, simplified version of Transformer Encoder with simply attention blocks is tested against the full Transformer Encoder.
-
 
 <img width="484" alt="image" src="https://user-images.githubusercontent.com/104526323/208586920-2ab05f8a-a2e0-4ca5-acdb-f35fd3d8d4e4.png">
+
+# Experiments
+<img width="239" alt="image" src="https://user-images.githubusercontent.com/104526323/208587391-caf74772-74c2-4e39-aa7f-add955d3b970.png">
+<img width="236" alt="image" src="https://user-images.githubusercontent.com/104526323/208587402-821f455c-0f7c-4bf8-a6e3-4affe8c0887d.png">
+<img width="236" alt="image" src="https://user-images.githubusercontent.com/104526323/208587408-39f44402-3cfb-468b-b8f7-008e233214ba.png">
+<img width="236" alt="image" src="https://user-images.githubusercontent.com/104526323/208587413-1ef1a3bb-84c3-47e4-85df-cfd1cc5c415c.png">
