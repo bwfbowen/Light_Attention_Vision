@@ -1,4 +1,4 @@
-To run the code, upload the `src` folder to Google colab and run dqn_test.ipynb inside src folder.
+To run the code, upload the `src` folder to Google colab and run `dqn_test.ipynb` inside `src` folder.
 <br>
 # Light_Attention_Vision
 
